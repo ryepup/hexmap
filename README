@@ -1,0 +1,14 @@
+This is to be a little hexmap you can draw scenarios on for table top gaming.
+
+Goals:
+ * It should be simple to use-- even during gameplay. Don't get bogged 
+   down making extremely detailed visually appealing maps. Make something
+   that shares the info and move on.
+ * Have a key for  <color> : <what it represents>.
+   Be able to add new color/definitions to there. Click on an existing one 
+   to start drawing with it. Delete an existing one and any drawing in that color.
+ * Use layered drawing.
+ * It should be multiuser editable. Several people can add/edit simultaneously.
+   Probably pull in couchdb or something similar as the datastore there.
+ * Saving/Loading
+ * Hyperlinkable to load a map -- this is also useful for doors or teleport.

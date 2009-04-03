@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+     <style type="text/css">
+       polygon:hover {stroke:red; stroke-width:2; fill-opacity:0.4; z-index:100; }
+       
+       polygon {border: 2px dotted black;}
+     </style>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
+     <script src="hexmap.js"></script>
+   </head>
+   <body onload="init()">
+     <button onclick=""></button>
+     
+     <svg id="svg" width="1000px" height="500px" style="display:block;"       
+	  xmlns="http://www.w3.org/2000/svg" >
+       <polygon id="hx0"
+		points="0,0 52,0 78,45 52,90 0,90 -26,45"
+		fill="#99C" stroke="blue" stroke-width="2"
+		transform="translate(26,0), scale(0.5,0.5)"
+		/>
+       
+     </svg>
+   </body>
+</html>
